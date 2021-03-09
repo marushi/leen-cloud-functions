@@ -1,0 +1,855 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "ChatRooms",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "`1`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "LastRefreshTime",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "ChatRooms",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "`2`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "LastRefreshTime",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "personality",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "personality_1",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "personality_2",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "personality_3",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "LoginDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "LoginDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "purpose",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "purpose",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tabakoClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "purpose",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "purpose",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tabakoClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tabakoClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "purpose",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "purpose",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tabakoClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tabakoClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "signupDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "signupDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tabakoClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "purpose",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "purpose",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tabakoClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Female_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tabakoClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Identifications",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "confirm",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "LoginDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "LoginDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "purpose",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "purpose",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tabakoClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "purpose",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tabakoClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "purpose",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "purpose",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tabakoClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "region",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tabakoClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "signupDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "signupDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tabakoClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "purpose",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Male_Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "searchPermis",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tallClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tabakoClass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
